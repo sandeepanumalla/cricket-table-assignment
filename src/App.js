@@ -1,12 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Homepage from "./components/Homepage";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Redirect,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Redirect, Route } from "react-router-dom";
 import Playerpage from "./components/Playerpage";
 
 function App() {
